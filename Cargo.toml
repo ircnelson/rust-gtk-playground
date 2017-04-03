@@ -1,0 +1,10 @@
+[package]
+name = "my-window"
+version = "0.1.0"
+authors = ["ircnelson <ircnelson@gmail.com>"]
+
+[dependencies]
+
+[dependencies.gtk]
+git = "https://github.com/gtk-rs/gtk"
+features = ["v3_10"]
